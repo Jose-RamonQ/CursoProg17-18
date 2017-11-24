@@ -9,16 +9,18 @@
 
 /*int NumRomanos (void); // Le decimos que hay una función llamada NumRomanos
 int LetraDNI (void); // Le decimos que hay una función llamada LetraDNI
-int main(void); // Le decimos que hay una función llamada main
-*/
-//int ValidarNum (void)
+int main(void); // Le decimos que hay una función llamada main*/
+
+//int main (void)
 //{
-    void leer(int numeroLeer)
+    int leer(int numeroLeer)
     {
        //scanf("%d\n",numeroLeer);
-        printf("Dentro de leer vale %d \n",numeroLeer);
+        printf("Dentro de leer vale %d \n",numeroLeer);//Aquí vale 12
         numeroLeer = 80;
         printf("Dentro de leer ahora vale %d \n",numeroLeer);
+        
+        // Faltaría enviar a 'mainInsertar' el dato ya modificado
         
     /*int tamanoTexto;
     char numeroRomanos, numeroDNI;
@@ -28,9 +30,9 @@ int main(void); // Le decimos que hay una función llamada main
     numeroRomanos = NumRomanos(&numero);
     numeroDNI = LetraDNI(numero);
     
-    printf ("El número decimal introducido es: \n", &numeroRomanos);
+    printf ("El número decimal introducido es: \n", &numeroRomanos);*/
     
     
 
-return 0;*/    
+return numeroLeer;   
 }
